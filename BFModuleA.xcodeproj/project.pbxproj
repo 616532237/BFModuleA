@@ -13,6 +13,8 @@
 		0643489122CB62FF005979B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0643489022CB62FF005979B8 /* Assets.xcassets */; };
 		0643489422CB62FF005979B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0643489222CB62FF005979B8 /* LaunchScreen.storyboard */; };
 		0643489722CB62FF005979B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0643489622CB62FF005979B8 /* main.m */; };
+		064348A122CC413F005979B8 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0643489F22CC413F005979B8 /* HomeViewController.m */; };
+		064348A222CC413F005979B8 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 064348A022CC413F005979B8 /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		0643489322CB62FF005979B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0643489522CB62FF005979B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0643489622CB62FF005979B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0643489E22CC413F005979B8 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		0643489F22CC413F005979B8 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		064348A022CC413F005979B8 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 		0643488622CB62FD005979B8 /* BFModuleA */ = {
 			isa = PBXGroup;
 			children = (
+				0643489D22CC37ED005979B8 /* Controller */,
 				0643488722CB62FD005979B8 /* AppDelegate.h */,
 				0643488822CB62FD005979B8 /* AppDelegate.m */,
 				0643488A22CB62FD005979B8 /* ViewController.h */,
@@ -69,6 +75,16 @@
 				0643489622CB62FF005979B8 /* main.m */,
 			);
 			path = BFModuleA;
+			sourceTree = "<group>";
+		};
+		0643489D22CC37ED005979B8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0643489E22CC413F005979B8 /* HomeViewController.h */,
+				0643489F22CC413F005979B8 /* HomeViewController.m */,
+				064348A022CC413F005979B8 /* HomeViewController.xib */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +147,7 @@
 				0643489422CB62FF005979B8 /* LaunchScreen.storyboard in Resources */,
 				0643489122CB62FF005979B8 /* Assets.xcassets in Resources */,
 				0643488F22CB62FD005979B8 /* Main.storyboard in Resources */,
+				064348A222CC413F005979B8 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +161,7 @@
 				0643488C22CB62FD005979B8 /* ViewController.m in Sources */,
 				0643489722CB62FF005979B8 /* main.m in Sources */,
 				0643488922CB62FD005979B8 /* AppDelegate.m in Sources */,
+				064348A122CC413F005979B8 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
